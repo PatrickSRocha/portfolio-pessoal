@@ -1,0 +1,70 @@
+/*Posicionamento dos posts*/
+post{
+    margin: 0px 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color: #2b2b2b;
+    border: 1px solid #4b4b4b;
+}
+#postSobreMim{
+    height: 240px;
+}
+#postFormacao{
+    height: 460px;
+}
+#postIdiomas{
+    height: 340px;
+}
+#postHabilidades{
+    height: 210px;
+}
+#postExperiencia{
+    height: 530px;
+}
+#postPortfolio{
+    height: 990px;
+}
+/*Construção do espaço para conteúdo no post*/
+.conteudo{
+    margin: 40px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.conteudoIdiomas{
+    justify-content: space-around;
+}
+#sobreMim{
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+#portfolio{
+    flex-wrap: wrap;
+}
+/*Construção das boxes para o conteúdo dos posts*/
+.boxConteudo{
+    width: 280px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #2b2b2b;
+    border: 1px solid #4b4b4b;
+    border-radius: 5px;
+}
+.portfolio{
+    width: 280px;
+    height: 280px;
+    margin: 10px 0px;
+}
+/*Construção das boxes que contém as informações dos posts*/
+.boxInformacoes{
+    width: 250px;
+    margin-top: 30px;
+}
+.boxiconeshabilidades{
+    display: flex;
+    align-items: center;
+}

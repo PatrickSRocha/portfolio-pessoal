@@ -1,0 +1,15 @@
+/*Editando o tipo de letra dos links*/
+a{
+    text-align: justify;
+    color: #f1f1f1;
+    text-decoration: none;
+}
+a:hover{
+  border-bottom: 1px solid #4b4b4b;
+  font-size: 20px;
+}
+/*Editando a rolagem do scroll para os links*/
+html {
+  scroll-padding-top: 55px;
+  scroll-behavior: smooth;
+}

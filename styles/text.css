@@ -1,0 +1,55 @@
+/*Edição dos textos da página*/
+h1{
+    position: absolute;
+    left: 80px;
+    bottom: 7px;
+    color: #f1f1f1;
+    font-size: 20px;
+    font-weight: normal;
+}
+h2{
+    position: relative;
+    top: 30px;
+    left: 30px;
+    color: #f1f1f1;
+    font-size: 20px;
+    padding-bottom: 5px;
+    font-weight: normal;
+}
+h3{
+    color: #f1f1f1;
+    font-size: 13px;
+    padding: 10px 0px;
+    text-align: center;
+    font-weight: normal;
+}
+p{
+    color: #f1f1f1;
+    font-size: 15px;
+}
+/*alterando textos especiais com base no p*/
+#TextCreditos{
+    text-align: center;
+    padding: 10px;
+}
+.textSobreMim{
+    text-align: justify;
+    margin: 0px 30px;
+}
+.text{
+    font-size: 12px;
+    text-align: justify;
+    padding: 3%;
+}
+/*Alterando títulos baseados no h3*/
+.title{
+    margin-top: 10px;
+    width: 250px;
+    border-bottom: 1px solid #4b4b4b;
+}
+/*Construindo caixas de descrição*/
+.boxTeste{
+    width: 250px;
+    margin: 20px 0px;
+    border-top: 1px solid #4b4b4b;
+}

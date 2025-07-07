@@ -1,0 +1,306 @@
+<!DOCTYPE html5>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Portfólio pessoal</title>
+
+    <!-- Colocando icone na aba do navegador -->
+    <link rel="icon" href="imgs/icone.jpeg">
+
+    <!-- Adicionando todos os styles a página formulário -->
+     <link rel="stylesheet" href="styles/index.css">
+     <link rel="stylesheet" href="styles/imgs.css">
+     <link rel="stylesheet" href="styles/text.css">
+     <link rel="stylesheet" href="styles/form.css">
+     <link rel="stylesheet" href="styles/links.css">
+
+</head>
+<body>
+
+        <!-- Criação da nav para conter o menu, o cabelhaço e o rodapé -->
+        <nav id="nav">
+
+                <!-- Criação do cabeçalho -->
+                <header id="header">
+                    
+                    <img id="logo" src="imgs/icone.jpeg">
+
+                    <h1>Patrick Rocha</h1>
+                   
+                </header>
+
+                <!-- Criação do menu e sues itens -->
+                <menu id="menu">
+
+                    <div class="itens">
+                        <img class="iconesMenu" src="imgs/home.png">
+                        <a href="index.html">Home</a>
+                    </div>
+                    
+                    <div class="itens">
+                        <img class="iconesMenu" src="imgs/sobremim.jpg">
+                        <a href="#sobreMim">Sobre mim</a> 
+                    </div>
+                    
+                    <div class="itens">
+                        <img class="iconesMenu" src="imgs/formacao.png">
+                        <a href="#formacao">Formação</a>
+                    </div>
+
+                    <div class="itens">
+                        <img class="iconesMenu" src="imgs/idioma.jpg">
+                        <a href="#idiomas">Idiomas</a>
+                    </div>
+                    
+                    <div class="itens">
+                        <img class="iconesMenu" src="imgs/habilidades.png">
+                        <a href="#habilidades">Habilidades</a>
+                    </div>
+                    
+                    <div class="itens">
+                        <img class="iconesMenu" src="imgs/experiencia.png">
+                        <a href="#experiencia">Experiência</a>
+                    </div>
+                    
+                    <div class="itens">
+                        <img class="iconesMenu" src="imgs/portfolio.jpg">
+                        <a href="#portfolio">Portfólio</a>
+                    </div>
+                    
+                </menu>
+
+                <!-- Criação do contatos -->
+                <contatos id="contatos">
+                        
+                    <div id="boxContatos">
+                        
+                        <a href="https://www.instagram.com">
+                            <img class="iconesContatos" src="imgs/instagram.png">
+                        </a>
+                        
+                        <a href="https://web.facebook.com/?locale=pt_BR&_rdc=1&_rdr#">
+                            <img class="iconesContatos" src="imgs/facebook.png">
+                        </a>
+
+                        <a href="https://www.linkedin.com/feed/">
+                            <img class="iconesContatos" src="imgs/linkdin.png">
+                        </a>
+
+                        <a href="https://github.com">
+                            <img class="iconesContatos" src="imgs/github.png">
+                        </a>
+
+                        <a href="forms.html">
+                            <img class="iconesContatos" src="imgs/formulario.jpg">
+                        </a>
+                        
+                    </div>
+                    
+                </contatos>
+
+                <!-- Criação do rodapé com meu nome -->
+                <footer id="footer">
+
+                    <p id="TextCreditos">&copy patrick rocha - 07/2025</p>
+
+                </footer>
+        </nav>
+        
+        <!-- Criação do article para construção do formulário de contato -->
+        <article id="articleForm">
+
+            <!-- Construção do post formulário -->
+            <post id="postForm">
+                
+                <!-- Criação do formulário -->
+                <form>
+
+                    <!-- Criação da tabela -->
+                    <table>
+
+                        <tr> <!-- Linha nome da tabela -->
+
+                            <td colspan="5">
+
+                                <label for="nome da tabela"> <!-- Nome da tabela -->
+
+                                    <p id="nomeTabela">
+                                        Formulário de contato
+                                    </p>
+
+                                </label>
+                                
+
+                            </td>
+
+                        </tr>
+
+                        <tr> <!-- Linha nome -->
+                            
+                            <td class="campo"> <!-- Componente nome -->
+                                
+                                <label for="nome">
+                                    
+                                    <p class="itemTabela">
+                                        Nome
+                                    </p>
+                                    
+                                </label> 
+
+                            </td>
+                            
+                            <td colspan="4"> <!-- Campo para escrita do nome -->
+                                
+                                <input 
+                                class="text"
+                                type="text"
+                                name="nome" 
+                                placeholder="Escreva o seu nome."
+                                maxlength="60"
+                                required>
+
+                            </td>
+
+                        </tr>
+
+                        <tr> <!-- Linha e-mail -->
+                            
+                            <td class="campo">
+                                
+                                <label for="email"> <!-- Componente email -->
+                                    
+                                    <p class="itemTabela">
+                                        E-mail
+                                    </p>
+
+                                </label>
+
+                            </td>
+                            
+                            <td colspan="4"> <!-- Campo para escrita do e-mail -->
+
+                                <input
+                                class="text"
+                                type="email"
+                                placeholder="Digite o seu e-mail."
+                                maxlength="60"
+                                required>
+
+                            </td>
+
+                        </tr>
+
+                        <tr> <!-- Linha telefone -->
+                            
+                            <td class="campo"> <!-- Componente telefone -->
+                                
+                                <label for="telefone">
+
+                                    <p class="itemTabela">
+                                        Telefone
+                                    </p>
+
+                                </label>
+
+                            </td>
+
+                            <td colspan="4"> <!-- Campo para escrita do telefone -->
+                                
+                                <input 
+                                class="text"
+                                id="tel"
+                                type="tel"
+                                placeholder="Digite seu telefone."
+                                maxlength="11"
+                                required>
+
+                            </td>
+
+                        </tr>
+
+                        <tr> <!-- Linha assunto -->
+
+                            <td class="campo"> <!-- Componente nome -->
+                                
+                                <label for="assunto"> 
+                                    
+                                    <p class="itemTabela">
+                                        Assunto
+                                    </p>
+                                    
+                                </label>
+
+                            </td>
+
+                            <td>
+                                <labe class="radio">
+                                    <input type="radio" name="assunto" value="frontEnd" required> Front-end
+                                </labe>
+                                
+                            </td>
+
+                            <td>
+
+                                <labe class="radio">
+                                    <input type="radio" name="assunto" value="backEnd"> Back-end
+                                </labe>
+                                
+                            </td>
+
+                            <td>
+                                
+                                <labe class="radio">
+                                    <input type="radio" name="assunto" value="fullStack"> Full Stack
+                                </labe>
+                                
+                            </td>
+
+                            <td id="teste">
+                                
+                                <labe class="radio">
+                                    <input type="radio" name="assunto" value="assets3D"> Assets 3D
+                                </labe>
+                                
+                            </td>
+                            
+                        </tr>
+
+                        <tr> <!-- Linha caixa de texto para mensagem -->
+                            
+                            <td colspan="5">
+                                <textarea rows="8" cols="90"  
+                                placeholder="Dígite sua mensagem."
+                                maxlength="720" wrap="hard"></textarea>
+                            </td>
+
+                        </tr>
+
+                        <tr> <!-- Linha botão de enviar -->
+
+                            <td colspan="5">
+
+                                <input 
+                                id="submit"
+                                type="submit" 
+                                name="submit" 
+                                value="Enviar">
+
+                            </td>
+
+                        </tr>
+
+
+                    </table>
+
+                </form>
+                
+            </post>
+
+        </article>
+</body>
+</html>

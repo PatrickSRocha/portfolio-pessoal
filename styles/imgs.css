@@ -1,0 +1,41 @@
+/*Edição de imagens*/
+#logo{
+    position: absolute;
+    bottom: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+}
+/*Icones de imagem do menu*/
+.iconesMenu{
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    margin-right: 15px;
+}
+/*Icones de imagem dos contatos*/
+#boxContatos{
+    display:flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.iconesContatos{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+/*Icones de imagem das habilidades*/
+.iconesHabilidades{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin: 10px;
+}
+/*Imagem do portfólio*/
+.imgPortfolio{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
